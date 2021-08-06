@@ -1,0 +1,2 @@
+os.Openfile allow write/read or apend 
+=>https://appdividend.com/2019/12/11/how-to-open-file-in-golang-go-file-open-example/
