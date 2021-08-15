@@ -8,16 +8,16 @@
 This exercice which implements a program crawl films from https://www.imdb.com/chart/top/?ref_=nv_mv_250 
 
 ### Main packages
-packge grom
-packge colly 
-
+```docx
+-packge grom
+-packge colly 
+```
 ## Process 
-
-###1 connect db.
-###2 create function to crawl with  a channel as a sender  
-###3 create function save these value in DB with a channel as a receiver
-###4 improve performance with goroutine 
-###5 await two goroutine before end!
+ create db with gorm
+ create function to crawl with  a channel as a sender
+ create function save these value in DB with a channel as a receiver
+ improve performance with goroutine 
+ await two goroutine before end!
 
 ## Usage
 ```go
