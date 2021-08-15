@@ -13,11 +13,13 @@ This exercice which implements a program crawl films from https://www.imdb.com/c
 -packge colly 
 ```
 ## Process 
+```docx
  create db with gorm
  create function to crawl with  a channel as a sender
  create function save these value in DB with a channel as a receiver
  improve performance with goroutine 
  await two goroutine before end!
+```
 
 ## Usage
 ```go
