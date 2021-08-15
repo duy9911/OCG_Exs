@@ -23,6 +23,7 @@ packge colly
 ```go
 cd src path 
 go run main.go
+```
 
 ## References 
 Connect db: 
