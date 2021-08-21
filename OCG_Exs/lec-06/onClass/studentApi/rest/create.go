@@ -3,8 +3,8 @@ package rest
 import (
 	"encoding/json"
 	"io/ioutil"
-	"lec-05/Exercise/data"
-	"lec-05/Exercise/handler"
+	"lec-06/onClass/studentApi/data"
+	"lec-06/onClass/studentApi/handler"
 	"net/http"
 )
 

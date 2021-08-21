@@ -1,7 +1,7 @@
 package rest
 
 import (
-	data "lec-05/Exercise/data"
+	data "lec-06/onClass/studentApi/data"
 	"net/http"
 	"strconv"
 

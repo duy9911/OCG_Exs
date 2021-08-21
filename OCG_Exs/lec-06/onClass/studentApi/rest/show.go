@@ -2,11 +2,11 @@ package rest
 
 import (
 	"encoding/json"
-	data "lec-05/Exercise/data"
+	data "lec-06/onClass/studentApi/data"
 	"net/http"
 	"strconv"
 
-	"lec-05/Exercise/handler"
+	"lec-06/onClass/studentApi/handler""
 
 	"github.com/gorilla/mux"
 )

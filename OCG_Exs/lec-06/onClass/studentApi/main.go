@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"lec-05/Exercise/rest"
+	"lec-06/onClass/studentApi/rest"
 	"log"
 	"net/http"
 
