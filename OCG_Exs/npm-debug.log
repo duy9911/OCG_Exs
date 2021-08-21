@@ -1,0 +1,447 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '--save-dev',
+1 verbose cli   'webpack-cli' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 verbose config Skipping project config: /home/duy/.npmrc. (matches userconfig)
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData webpack-cli
+9 silly fetchNamedPackageData webpack-cli
+10 silly mapToRegistry name webpack-cli
+11 silly mapToRegistry using default registry
+12 silly mapToRegistry registry https://registry.npmjs.org/
+13 silly mapToRegistry uri https://registry.npmjs.org/webpack-cli
+14 verbose request uri https://registry.npmjs.org/webpack-cli
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 9:47:37 AM
+17 verbose request id 2bc79ef17164a1de
+18 verbose etag W/"cd7c56f747ef2e471c094b2f75e3ea76"
+19 verbose lastModified Sun, 15 Aug 2021 20:05:44 GMT
+20 http request GET https://registry.npmjs.org/webpack-cli
+21 http 304 https://registry.npmjs.org/webpack-cli
+22 verbose headers { date: 'Wed, 18 Aug 2021 02:47:38 GMT',
+22 verbose headers   connection: 'keep-alive',
+22 verbose headers   'cf-ray': '6807d18ebd753cfa-HKG',
+22 verbose headers   age: '3856',
+22 verbose headers   'cache-control': 'public, max-age=300',
+22 verbose headers   etag: '"cd7c56f747ef2e471c094b2f75e3ea76"',
+22 verbose headers   'last-modified': 'Sun, 15 Aug 2021 20:05:44 GMT',
+22 verbose headers   vary: 'Accept-Encoding',
+22 verbose headers   'cf-cache-status': 'HIT',
+22 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+22 verbose headers   'x-amz-replication-status': 'COMPLETED',
+22 verbose headers   server: 'cloudflare' }
+23 silly get cb [ 304,
+23 silly get   { date: 'Wed, 18 Aug 2021 02:47:38 GMT',
+23 silly get     connection: 'keep-alive',
+23 silly get     'cf-ray': '6807d18ebd753cfa-HKG',
+23 silly get     age: '3856',
+23 silly get     'cache-control': 'public, max-age=300',
+23 silly get     etag: '"cd7c56f747ef2e471c094b2f75e3ea76"',
+23 silly get     'last-modified': 'Sun, 15 Aug 2021 20:05:44 GMT',
+23 silly get     vary: 'Accept-Encoding',
+23 silly get     'cf-cache-status': 'HIT',
+23 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+23 silly get     'x-amz-replication-status': 'COMPLETED',
+23 silly get     server: 'cloudflare' } ]
+24 verbose etag https://registry.npmjs.org/webpack-cli from cache
+25 verbose get saving webpack-cli to /home/duy/.npm/registry.npmjs.org/webpack-cli/.cache.json
+26 silly install normalizeTree
+27 silly loadCurrentTree Finishing
+28 silly loadIdealTree Starting
+29 silly install loadIdealTree
+30 silly cloneCurrentTree Starting
+31 silly install cloneCurrentTreeToIdealTree
+32 silly cloneCurrentTree Finishing
+33 silly loadShrinkwrap Starting
+34 silly install loadShrinkwrap
+35 silly loadShrinkwrap Finishing
+36 silly loadAllDepsIntoIdealTree Starting
+37 silly install loadAllDepsIntoIdealTree
+38 silly resolveWithNewModule webpack-cli@4.8.0 checking installable status
+39 silly cache add args [ 'webpack-cli', null ]
+40 verbose cache add spec webpack-cli
+41 silly cache add parsed spec Result {
+41 silly cache add   raw: 'webpack-cli',
+41 silly cache add   scope: null,
+41 silly cache add   name: 'webpack-cli',
+41 silly cache add   rawSpec: '',
+41 silly cache add   spec: 'latest',
+41 silly cache add   type: 'tag' }
+42 silly addNamed webpack-cli@latest
+43 verbose addNamed "latest" is being treated as a dist-tag for webpack-cli
+44 info addNameTag [ 'webpack-cli', 'latest' ]
+45 silly mapToRegistry name webpack-cli
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/webpack-cli
+49 verbose addNameTag registry:https://registry.npmjs.org/webpack-cli not in flight; fetching
+50 verbose get https://registry.npmjs.org/webpack-cli not expired, no request
+51 silly addNameTag next cb for webpack-cli with tag latest
+52 silly addNamed webpack-cli@4.8.0
+53 verbose addNamed "4.8.0" is a plain semver version for webpack-cli
+54 silly cache afterAdd webpack-cli@4.8.0
+55 verbose afterAdd /home/duy/.npm/webpack-cli/4.8.0/package/package.json not in flight; writing
+56 verbose afterAdd /home/duy/.npm/webpack-cli/4.8.0/package/package.json written
+57 silly fetchNamedPackageData @discoveryjs/json-ext
+58 silly mapToRegistry name @discoveryjs/json-ext
+59 silly mapToRegistry scope (from package name) @discoveryjs
+60 verbose mapToRegistry no registry URL found in name for scope @discoveryjs
+61 silly mapToRegistry using default registry
+62 silly mapToRegistry registry https://registry.npmjs.org/
+63 silly mapToRegistry uri https://registry.npmjs.org/@discoveryjs%2fjson-ext
+64 silly fetchNamedPackageData @webpack-cli/configtest
+65 silly mapToRegistry name @webpack-cli/configtest
+66 silly mapToRegistry scope (from package name) @webpack-cli
+67 verbose mapToRegistry no registry URL found in name for scope @webpack-cli
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry uri https://registry.npmjs.org/@webpack-cli%2fconfigtest
+71 silly fetchNamedPackageData @webpack-cli/info
+72 silly mapToRegistry name @webpack-cli/info
+73 silly mapToRegistry scope (from package name) @webpack-cli
+74 verbose mapToRegistry no registry URL found in name for scope @webpack-cli
+75 silly mapToRegistry using default registry
+76 silly mapToRegistry registry https://registry.npmjs.org/
+77 silly mapToRegistry uri https://registry.npmjs.org/@webpack-cli%2finfo
+78 silly fetchNamedPackageData @webpack-cli/serve
+79 silly mapToRegistry name @webpack-cli/serve
+80 silly mapToRegistry scope (from package name) @webpack-cli
+81 verbose mapToRegistry no registry URL found in name for scope @webpack-cli
+82 silly mapToRegistry using default registry
+83 silly mapToRegistry registry https://registry.npmjs.org/
+84 silly mapToRegistry uri https://registry.npmjs.org/@webpack-cli%2fserve
+85 silly fetchNamedPackageData colorette
+86 silly mapToRegistry name colorette
+87 silly mapToRegistry using default registry
+88 silly mapToRegistry registry https://registry.npmjs.org/
+89 silly mapToRegistry uri https://registry.npmjs.org/colorette
+90 silly fetchNamedPackageData commander
+91 silly mapToRegistry name commander
+92 silly mapToRegistry using default registry
+93 silly mapToRegistry registry https://registry.npmjs.org/
+94 silly mapToRegistry uri https://registry.npmjs.org/commander
+95 silly fetchNamedPackageData execa
+96 silly mapToRegistry name execa
+97 silly mapToRegistry using default registry
+98 silly mapToRegistry registry https://registry.npmjs.org/
+99 silly mapToRegistry uri https://registry.npmjs.org/execa
+100 silly fetchNamedPackageData fastest-levenshtein
+101 silly mapToRegistry name fastest-levenshtein
+102 silly mapToRegistry using default registry
+103 silly mapToRegistry registry https://registry.npmjs.org/
+104 silly mapToRegistry uri https://registry.npmjs.org/fastest-levenshtein
+105 silly fetchNamedPackageData import-local
+106 silly mapToRegistry name import-local
+107 silly mapToRegistry using default registry
+108 silly mapToRegistry registry https://registry.npmjs.org/
+109 silly mapToRegistry uri https://registry.npmjs.org/import-local
+110 silly fetchNamedPackageData interpret
+111 silly mapToRegistry name interpret
+112 silly mapToRegistry using default registry
+113 silly mapToRegistry registry https://registry.npmjs.org/
+114 silly mapToRegistry uri https://registry.npmjs.org/interpret
+115 silly fetchNamedPackageData rechoir
+116 silly mapToRegistry name rechoir
+117 silly mapToRegistry using default registry
+118 silly mapToRegistry registry https://registry.npmjs.org/
+119 silly mapToRegistry uri https://registry.npmjs.org/rechoir
+120 silly fetchNamedPackageData v8-compile-cache
+121 silly mapToRegistry name v8-compile-cache
+122 silly mapToRegistry using default registry
+123 silly mapToRegistry registry https://registry.npmjs.org/
+124 silly mapToRegistry uri https://registry.npmjs.org/v8-compile-cache
+125 silly fetchNamedPackageData webpack-merge
+126 silly mapToRegistry name webpack-merge
+127 silly mapToRegistry using default registry
+128 silly mapToRegistry registry https://registry.npmjs.org/
+129 silly mapToRegistry uri https://registry.npmjs.org/webpack-merge
+130 verbose request uri https://registry.npmjs.org/@discoveryjs%2fjson-ext
+131 verbose request no auth needed
+132 info attempt registry request try #1 at 9:47:38 AM
+133 verbose etag W/"af8826af22962fefba89cd8ee1dfba36"
+134 verbose lastModified Thu, 13 May 2021 21:20:34 GMT
+135 http request GET https://registry.npmjs.org/@discoveryjs%2fjson-ext
+136 verbose request uri https://registry.npmjs.org/@webpack-cli%2fconfigtest
+137 verbose request no auth needed
+138 info attempt registry request try #1 at 9:47:38 AM
+139 verbose etag W/"a8fb92dd912d0146da2e33b89efe1798"
+140 verbose lastModified Mon, 07 Jun 2021 13:07:20 GMT
+141 http request GET https://registry.npmjs.org/@webpack-cli%2fconfigtest
+142 verbose request uri https://registry.npmjs.org/@webpack-cli%2finfo
+143 verbose request no auth needed
+144 info attempt registry request try #1 at 9:47:38 AM
+145 verbose etag W/"e6c21743b9400d68b6c555a8dfa065ac"
+146 verbose lastModified Mon, 07 Jun 2021 13:07:19 GMT
+147 http request GET https://registry.npmjs.org/@webpack-cli%2finfo
+148 verbose request uri https://registry.npmjs.org/colorette
+149 verbose request no auth needed
+150 info attempt registry request try #1 at 9:47:38 AM
+151 verbose etag W/"9e3cd7191e2590bdd13645c5bb828c82"
+152 verbose lastModified Tue, 10 Aug 2021 12:55:48 GMT
+153 http request GET https://registry.npmjs.org/colorette
+154 verbose request uri https://registry.npmjs.org/@webpack-cli%2fserve
+155 verbose request no auth needed
+156 info attempt registry request try #1 at 9:47:38 AM
+157 verbose etag W/"eeafb10496d0aab3f7723229921c85eb"
+158 verbose lastModified Sun, 15 Aug 2021 20:05:41 GMT
+159 http request GET https://registry.npmjs.org/@webpack-cli%2fserve
+160 verbose request uri https://registry.npmjs.org/import-local
+161 verbose request no auth needed
+162 info attempt registry request try #1 at 9:47:38 AM
+163 verbose etag W/"b7c9be1aacde66a1f6184ba503dbca7b"
+164 verbose lastModified Wed, 24 Jul 2019 06:33:38 GMT
+165 http request GET https://registry.npmjs.org/import-local
+166 verbose request uri https://registry.npmjs.org/fastest-levenshtein
+167 verbose request no auth needed
+168 info attempt registry request try #1 at 9:47:38 AM
+169 verbose etag W/"815b62b375e924551b331b1121a0c305"
+170 verbose lastModified Fri, 07 Aug 2020 23:22:10 GMT
+171 http request GET https://registry.npmjs.org/fastest-levenshtein
+172 verbose request uri https://registry.npmjs.org/execa
+173 verbose request no auth needed
+174 info attempt registry request try #1 at 9:47:38 AM
+175 verbose etag W/"177b3fa8198d444a58f899e8ab75b05a"
+176 verbose lastModified Thu, 12 Aug 2021 02:08:53 GMT
+177 http request GET https://registry.npmjs.org/execa
+178 verbose request uri https://registry.npmjs.org/rechoir
+179 verbose request no auth needed
+180 info attempt registry request try #1 at 9:47:38 AM
+181 verbose etag W/"59dc27410031d68844bfa983446a85e6"
+182 verbose lastModified Sat, 24 Jul 2021 04:39:28 GMT
+183 http request GET https://registry.npmjs.org/rechoir
+184 verbose request uri https://registry.npmjs.org/interpret
+185 verbose request no auth needed
+186 info attempt registry request try #1 at 9:47:38 AM
+187 verbose etag W/"99f2474b51cd43f129b9d8a812129e11"
+188 verbose lastModified Wed, 03 Jun 2020 06:52:10 GMT
+189 http request GET https://registry.npmjs.org/interpret
+190 verbose request uri https://registry.npmjs.org/v8-compile-cache
+191 verbose request no auth needed
+192 info attempt registry request try #1 at 9:47:38 AM
+193 verbose etag W/"ea7e636e4d26153593687de77340764a"
+194 verbose lastModified Sat, 06 Mar 2021 01:20:08 GMT
+195 http request GET https://registry.npmjs.org/v8-compile-cache
+196 verbose request uri https://registry.npmjs.org/webpack-merge
+197 verbose request no auth needed
+198 info attempt registry request try #1 at 9:47:38 AM
+199 verbose etag W/"ab3a40593e21cd84f0d0e546f978db95"
+200 verbose lastModified Mon, 07 Jun 2021 08:34:49 GMT
+201 http request GET https://registry.npmjs.org/webpack-merge
+202 verbose request uri https://registry.npmjs.org/commander
+203 verbose request no auth needed
+204 info attempt registry request try #1 at 9:47:38 AM
+205 verbose etag W/"6905b919f80fd9ee033ea9cf12f65e38"
+206 verbose lastModified Thu, 12 Aug 2021 06:26:00 GMT
+207 http request GET https://registry.npmjs.org/commander
+208 http 304 https://registry.npmjs.org/@discoveryjs%2fjson-ext
+209 verbose headers { date: 'Wed, 18 Aug 2021 02:47:38 GMT',
+209 verbose headers   connection: 'keep-alive',
+209 verbose headers   'cf-ray': '6807d19019813cfa-HKG',
+209 verbose headers   age: '6728',
+209 verbose headers   'cache-control': 'public, max-age=300',
+209 verbose headers   etag: '"af8826af22962fefba89cd8ee1dfba36"',
+209 verbose headers   'last-modified': 'Thu, 13 May 2021 21:20:34 GMT',
+209 verbose headers   vary: 'Accept-Encoding',
+209 verbose headers   'cf-cache-status': 'HIT',
+209 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+209 verbose headers   server: 'cloudflare' }
+210 silly get cb [ 304,
+210 silly get   { date: 'Wed, 18 Aug 2021 02:47:38 GMT',
+210 silly get     connection: 'keep-alive',
+210 silly get     'cf-ray': '6807d19019813cfa-HKG',
+210 silly get     age: '6728',
+210 silly get     'cache-control': 'public, max-age=300',
+210 silly get     etag: '"af8826af22962fefba89cd8ee1dfba36"',
+210 silly get     'last-modified': 'Thu, 13 May 2021 21:20:34 GMT',
+210 silly get     vary: 'Accept-Encoding',
+210 silly get     'cf-cache-status': 'HIT',
+210 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+210 silly get     server: 'cloudflare' } ]
+211 verbose etag https://registry.npmjs.org/@discoveryjs%2fjson-ext from cache
+212 verbose get saving @discoveryjs/json-ext to /home/duy/.npm/registry.npmjs.org/_40discoveryjs_252fjson-ext/.cache.json
+213 silly resolveWithNewModule @discoveryjs/json-ext@0.5.3 checking installable status
+214 silly cache add args [ '@discoveryjs/json-ext@^0.5.0', null ]
+215 verbose cache add spec @discoveryjs/json-ext@^0.5.0
+216 silly cache add parsed spec Result {
+216 silly cache add   raw: '@discoveryjs/json-ext@^0.5.0',
+216 silly cache add   scope: '@discoveryjs',
+216 silly cache add   name: '@discoveryjs/json-ext',
+216 silly cache add   rawSpec: '^0.5.0',
+216 silly cache add   spec: '>=0.5.0 <0.6.0',
+216 silly cache add   type: 'range' }
+217 silly addNamed @discoveryjs/json-ext@>=0.5.0 <0.6.0
+218 verbose addNamed ">=0.5.0 <0.6.0" is a valid semver range for @discoveryjs/json-ext
+219 silly addNameRange { name: '@discoveryjs/json-ext',
+219 silly addNameRange   range: '>=0.5.0 <0.6.0',
+219 silly addNameRange   hasData: false }
+220 silly mapToRegistry name @discoveryjs/json-ext
+221 silly mapToRegistry scope (from package name) @discoveryjs
+222 verbose mapToRegistry no registry URL found in name for scope @discoveryjs
+223 silly mapToRegistry using default registry
+224 silly mapToRegistry registry https://registry.npmjs.org/
+225 silly mapToRegistry uri https://registry.npmjs.org/@discoveryjs%2fjson-ext
+226 verbose addNameRange registry:https://registry.npmjs.org/@discoveryjs%2fjson-ext not in flight; fetching
+227 verbose get https://registry.npmjs.org/@discoveryjs%2fjson-ext not expired, no request
+228 silly addNameRange number 2 { name: '@discoveryjs/json-ext',
+228 silly addNameRange   range: '>=0.5.0 <0.6.0',
+228 silly addNameRange   hasData: true }
+229 silly addNameRange versions [ '@discoveryjs/json-ext',
+229 silly addNameRange   [ '0.1.0',
+229 silly addNameRange     '0.1.1',
+229 silly addNameRange     '0.2.0',
+229 silly addNameRange     '0.3.0',
+229 silly addNameRange     '0.3.1',
+229 silly addNameRange     '0.3.2',
+229 silly addNameRange     '0.4.0',
+229 silly addNameRange     '0.5.0',
+229 silly addNameRange     '0.5.1',
+229 silly addNameRange     '0.5.2',
+229 silly addNameRange     '0.5.3' ] ]
+230 silly addNamed @discoveryjs/json-ext@0.5.3
+231 verbose addNamed "0.5.3" is a plain semver version for @discoveryjs/json-ext
+232 silly cache afterAdd @discoveryjs/json-ext@0.5.3
+233 verbose afterAdd /home/duy/.npm/@discoveryjs/json-ext/0.5.3/package/package.json not in flight; writing
+234 verbose afterAdd /home/duy/.npm/@discoveryjs/json-ext/0.5.3/package/package.json written
+235 http 304 https://registry.npmjs.org/colorette
+236 verbose headers { date: 'Wed, 18 Aug 2021 02:47:38 GMT',
+236 verbose headers   connection: 'keep-alive',
+236 verbose headers   'cf-ray': '6807d1909d773d24-HKG',
+236 verbose headers   age: '369',
+236 verbose headers   'cache-control': 'public, max-age=300',
+236 verbose headers   etag: '"9e3cd7191e2590bdd13645c5bb828c82"',
+236 verbose headers   'last-modified': 'Tue, 10 Aug 2021 12:55:48 GMT',
+236 verbose headers   vary: 'Accept-Encoding',
+236 verbose headers   'cf-cache-status': 'HIT',
+236 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+236 verbose headers   'x-amz-replication-status': 'COMPLETED',
+236 verbose headers   server: 'cloudflare' }
+237 silly get cb [ 304,
+237 silly get   { date: 'Wed, 18 Aug 2021 02:47:38 GMT',
+237 silly get     connection: 'keep-alive',
+237 silly get     'cf-ray': '6807d1909d773d24-HKG',
+237 silly get     age: '369',
+237 silly get     'cache-control': 'public, max-age=300',
+237 silly get     etag: '"9e3cd7191e2590bdd13645c5bb828c82"',
+237 silly get     'last-modified': 'Tue, 10 Aug 2021 12:55:48 GMT',
+237 silly get     vary: 'Accept-Encoding',
+237 silly get     'cf-cache-status': 'HIT',
+237 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+237 silly get     'x-amz-replication-status': 'COMPLETED',
+237 silly get     server: 'cloudflare' } ]
+238 verbose etag https://registry.npmjs.org/colorette from cache
+239 verbose get saving colorette to /home/duy/.npm/registry.npmjs.org/colorette/.cache.json
+240 http 304 https://registry.npmjs.org/fastest-levenshtein
+241 verbose headers { date: 'Wed, 18 Aug 2021 02:47:38 GMT',
+241 verbose headers   connection: 'keep-alive',
+241 verbose headers   'cf-ray': '6807d190bcf13c52-HKG',
+241 verbose headers   age: '2167',
+241 verbose headers   'cache-control': 'public, max-age=300',
+241 verbose headers   etag: '"815b62b375e924551b331b1121a0c305"',
+241 verbose headers   'last-modified': 'Fri, 07 Aug 2020 23:22:10 GMT',
+241 verbose headers   vary: 'Accept-Encoding',
+241 verbose headers   'cf-cache-status': 'HIT',
+241 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+241 verbose headers   server: 'cloudflare' }
+242 silly get cb [ 304,
+242 silly get   { date: 'Wed, 18 Aug 2021 02:47:38 GMT',
+242 silly get     connection: 'keep-alive',
+242 silly get     'cf-ray': '6807d190bcf13c52-HKG',
+242 silly get     age: '2167',
+242 silly get     'cache-control': 'public, max-age=300',
+242 silly get     etag: '"815b62b375e924551b331b1121a0c305"',
+242 silly get     'last-modified': 'Fri, 07 Aug 2020 23:22:10 GMT',
+242 silly get     vary: 'Accept-Encoding',
+242 silly get     'cf-cache-status': 'HIT',
+242 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+242 silly get     server: 'cloudflare' } ]
+243 verbose etag https://registry.npmjs.org/fastest-levenshtein from cache
+244 verbose get saving fastest-levenshtein to /home/duy/.npm/registry.npmjs.org/fastest-levenshtein/.cache.json
+245 http 304 https://registry.npmjs.org/import-local
+246 verbose headers { date: 'Wed, 18 Aug 2021 02:47:38 GMT',
+246 verbose headers   connection: 'keep-alive',
+246 verbose headers   'cf-ray': '6807d190bbbf3c46-HKG',
+246 verbose headers   age: '2310',
+246 verbose headers   'cache-control': 'public, max-age=300',
+246 verbose headers   etag: '"b7c9be1aacde66a1f6184ba503dbca7b"',
+246 verbose headers   'last-modified': 'Wed, 24 Jul 2019 06:33:38 GMT',
+246 verbose headers   vary: 'Accept-Encoding',
+246 verbose headers   'cf-cache-status': 'HIT',
+246 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+246 verbose headers   server: 'cloudflare' }
+247 silly get cb [ 304,
+247 silly get   { date: 'Wed, 18 Aug 2021 02:47:38 GMT',
+247 silly get     connection: 'keep-alive',
+247 silly get     'cf-ray': '6807d190bbbf3c46-HKG',
+247 silly get     age: '2310',
+247 silly get     'cache-control': 'public, max-age=300',
+247 silly get     etag: '"b7c9be1aacde66a1f6184ba503dbca7b"',
+247 silly get     'last-modified': 'Wed, 24 Jul 2019 06:33:38 GMT',
+247 silly get     vary: 'Accept-Encoding',
+247 silly get     'cf-cache-status': 'HIT',
+247 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+247 silly get     server: 'cloudflare' } ]
+248 verbose etag https://registry.npmjs.org/import-local from cache
+249 verbose get saving import-local to /home/duy/.npm/registry.npmjs.org/import-local/.cache.json
+250 http 304 https://registry.npmjs.org/v8-compile-cache
+251 verbose headers { date: 'Wed, 18 Aug 2021 02:47:38 GMT',
+251 verbose headers   connection: 'keep-alive',
+251 verbose headers   'cf-ray': '6807d190cf9021e9-HKG',
+251 verbose headers   age: '2968',
+251 verbose headers   'cache-control': 'public, max-age=300',
+251 verbose headers   etag: '"ea7e636e4d26153593687de77340764a"',
+251 verbose headers   'last-modified': 'Sat, 06 Mar 2021 01:20:08 GMT',
+251 verbose headers   vary: 'Accept-Encoding',
+251 verbose headers   'cf-cache-status': 'HIT',
+251 verbose headers   'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+251 verbose headers   server: 'cloudflare' }
+252 silly get cb [ 304,
+252 silly get   { date: 'Wed, 18 Aug 2021 02:47:38 GMT',
+252 silly get     connection: 'keep-alive',
+252 silly get     'cf-ray': '6807d190cf9021e9-HKG',
+252 silly get     age: '2968',
+252 silly get     'cache-control': 'public, max-age=300',
+252 silly get     etag: '"ea7e636e4d26153593687de77340764a"',
+252 silly get     'last-modified': 'Sat, 06 Mar 2021 01:20:08 GMT',
+252 silly get     vary: 'Accept-Encoding',
+252 silly get     'cf-cache-status': 'HIT',
+252 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+252 silly get     server: 'cloudflare' } ]
+253 verbose etag https://registry.npmjs.org/v8-compile-cache from cache
+254 verbose get saving v8-compile-cache to /home/duy/.npm/registry.npmjs.org/v8-compile-cache/.cache.json
+255 verbose stack Error: Missing required argument #1
+255 verbose stack     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+255 verbose stack     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+255 verbose stack     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+255 verbose stack     at /usr/share/npm/lib/install/deps.js:457:7
+255 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+255 verbose stack     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+255 verbose stack     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+255 verbose stack     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+255 verbose stack     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+255 verbose stack     at /usr/share/npm/node_modules/iferr/index.js:13:50
+256 verbose cwd /home/duy/Documents/VSC/OCG_Exs
+257 error Linux 5.4.0-80-generic
+258 error argv "/usr/bin/node" "/usr/bin/npm" "install" "--save-dev" "webpack-cli"
+259 error node v8.10.0
+260 error npm  v3.5.2
+261 error code EMISSINGARG
+262 error typeerror Error: Missing required argument #1
+262 error typeerror     at andLogAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:31:3)
+262 error typeerror     at fetchPackageMetadata (/usr/share/npm/lib/fetch-package-metadata.js:51:22)
+262 error typeerror     at resolveWithNewModule (/usr/share/npm/lib/install/deps.js:456:12)
+262 error typeerror     at /usr/share/npm/lib/install/deps.js:457:7
+262 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+262 error typeerror     at /usr/share/npm/lib/fetch-package-metadata.js:37:12
+262 error typeerror     at addRequestedAndFinish (/usr/share/npm/lib/fetch-package-metadata.js:82:5)
+262 error typeerror     at returnAndAddMetadata (/usr/share/npm/lib/fetch-package-metadata.js:117:7)
+262 error typeerror     at pickVersionFromRegistryDocument (/usr/share/npm/lib/fetch-package-metadata.js:134:20)
+262 error typeerror     at /usr/share/npm/node_modules/iferr/index.js:13:50
+263 error typeerror This is an error with npm itself. Please report this error at:
+263 error typeerror     <http://github.com/npm/npm/issues>
+264 verbose exit [ 1, true ]
