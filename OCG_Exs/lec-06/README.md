@@ -7,6 +7,8 @@ Please let me know if you are not clear on somewhere.
 ## Database design 
 ![Image of ERD]
 (/home/duy/Downloads/erd6.png)
+![GitHub Logo](/home/duy/Downloads/erd6.png)
+For more clearly redirect to : ![dbdiagram.io](url)
 
 ## Features
 * Basic Login
