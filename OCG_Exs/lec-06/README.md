@@ -5,6 +5,7 @@ In this lecture, I learned the following:
 > For better understanding, I build my own project to manage Products, Orders.
 Please let me know if you are not clear on somewhere. 
 ## Database design 
+First i designed ERD
 
 ![erd6](https://user-images.githubusercontent.com/44527223/130604872-018291af-c9f4-4afa-a733-4fd9ae46c5e7.png)
 
