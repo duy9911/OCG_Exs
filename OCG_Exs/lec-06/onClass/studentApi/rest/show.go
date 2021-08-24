@@ -17,7 +17,7 @@ var (
 
 func ReturnSingleStudent(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
-	key := vars["id"]
+	key := vars ["id"]
 	k, _ := strconv.Atoi(key)
 
 	rows := db.First(&data.Students, k)
@@ -35,5 +35,4 @@ func ReturnStudents(w http.ResponseWriter, r *http.Request) {
 	for _, s := range data.Students {
 		json.NewEncoder(w).Encode(&s)
 	}
-
 }
