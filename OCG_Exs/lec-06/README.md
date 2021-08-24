@@ -6,9 +6,6 @@ In this lecture, I learned the following:
 Please let me know if you are not clear on somewhere. 
 ## Database design 
 
-![Image of erd](https://drive.google.com/file/d/1ptGOt5LO6Fo5hebS4PcXUL5iZnHHGo6d/view)
-For more clearly redirect to : ![dbdiagram.io](https://dbdiagram.io/d/61244f236dc2bb6073b80b93)
-=======
 First i designed ERD
 
 ![erd6](https://user-images.githubusercontent.com/44527223/130604872-018291af-c9f4-4afa-a733-4fd9ae46c5e7.png)
