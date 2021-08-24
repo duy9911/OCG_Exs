@@ -5,7 +5,7 @@ In this lecture, I learned the following:
 > For better understanding, I build my own project to manage Products, Orders.
 Please let me know if you are not clear on somewhere. 
 ## Database design 
-<<<<<<< HEAD
+
 ![Image of erd](https://drive.google.com/file/d/1ptGOt5LO6Fo5hebS4PcXUL5iZnHHGo6d/view)
 For more clearly redirect to : ![dbdiagram.io](https://dbdiagram.io/d/61244f236dc2bb6073b80b93)
 =======
@@ -14,7 +14,46 @@ First i designed ERD
 ![erd6](https://user-images.githubusercontent.com/44527223/130604872-018291af-c9f4-4afa-a733-4fd9ae46c5e7.png)
 
 Click my [dbdiagram](https://dbdiagram.io/d/61244f236dc2bb6073b80b93)  to see more clearly   
->>>>>>> 51c830cceff00882ae9915c41253cc3734905665
+
+
+## Structures 
+```
+├── docker-compose.yml
+├── document
+│   └── erd6.png
+├── exercise
+│   └── managerStore
+│       ├── controller
+│       │   ├── customerController.go
+│       │   ├── orderController.go
+│       │   ├── orderdetail.go
+│       │   └── productController.go
+│       ├── main.go
+│       ├── middleware
+│       │   ├── middlewareBasicAuth.go
+│       │   └── middlewareLogging.go
+│       └── model
+│           ├── customer.go
+│           ├── DBcontext.go
+│           ├── order.go
+│           ├── product.go
+│           └── user.go
+├── exercises
+│   └── data
+│       └── Untitled Diagram.drawio
+├── go.mod
+├── go.sum
+├── onClass
+│   └── studentApi
+│       ├── main.go
+│       └── rest
+│           ├── create.go
+│           ├── delete.go
+│           ├── show.go
+│           └── update.go
+├── README.md
+└── service
+```
 
 ## Features
 * Basic Login
