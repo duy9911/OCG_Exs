@@ -9,7 +9,7 @@ First i designed ERD
 
 ![erd6](https://user-images.githubusercontent.com/44527223/130604872-018291af-c9f4-4afa-a733-4fd9ae46c5e7.png)
 
-Click my [dbdiagram](https://dbdiagram.io/d/61244f236dc2bb6073b80b93)  to see more clearly   
+Click my [dbdiagram](https://dbdiagram.io/d/61244f236dc2bb6073b80b93)  to see more.
 
 
 ## Structures 
