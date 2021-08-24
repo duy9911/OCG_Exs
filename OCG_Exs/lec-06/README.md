@@ -22,35 +22,34 @@ Click my [dbdiagram](https://dbdiagram.io/d/61244f236dc2bb6073b80b93)  to see mo
   * Open Postman and choose Authorization
   * Select type BasicAuth
   * Enter: Duy for User, 123 for Password 
-
-* C>R>U>D 
-  * Customer
+### C>R>U>D 
+* Customer
 ```t
-    /api/customers > > > Methods(POST)
-	/api/customersMethods(GET)
-	/api/customers/{id} > > > Methods(PUT)
-	/api/customers/{id}> > > Methods(DELETE)
+    /api/customers            Methods(POST)
+	/api/customers        Methods(GET)
+	/api/customers/{id}   Methods(PUT)
+	/api/customers/{id}   Methods(DELETE)
 ```
   * Product
 ```t
-	/api/productsMethods(POST)
-	/api/productsMethods(GET)
-	/api/products/{id}> > > Methods(PUT)
-	/api/products/{id}> > > Methods(DELETE)
+	/api/products       Methods(POST)
+	/api/products       Methods(GET)
+	/api/products/{id}  Methods(PUT)
+	/api/products/{id}  Methods(DELETE)
 ```
   * Order
 ```t
-	/api/ordersMethods(POST)
-	/api/ordersMethods(GET)
-	/api/orders/{id}> > > Methods(PUT)
-	/api/orders/{id}> > > Methods(DELETE)
+	/api/orders       Methods(POST)
+	/api/orders       Methods(GET)
+	/api/orders/{id}  Methods(PUT)
+	/api/orders/{id}  Methods(DELETE)
 ```
   * Orderdetail
 ```t
-	/api/orderdetailsMethods(POST)
-	/api/orderdetailsMethods(GET)
-	/api/orderdetails/{id}> > > Methods(PUT)
-	"/api/orderdetails/{id}"> > > > Methods("DELETE")
+	/api/orderdetails       Methods(POST)
+	/api/orderdetails       Methods(GET)
+	/api/orderdetails/{id}  Methods(PUT)
+	"/api/orderdetails/{id} Methods("DELETE")
 ```
 
 
