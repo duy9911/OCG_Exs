@@ -2,7 +2,7 @@ package middleware
 
 import (
 	"fmt"
-	"lec-06/onClass/document/data"
+	"lec-06/exercise/managerStore/model"
 	"net/http"
 )
 
@@ -24,7 +24,7 @@ func BasicAuth(handler http.HandlerFunc) http.HandlerFunc {
 
 //dummy data
 var (
-	accounts = data.User{UserName: "Duy", Password: "123"}
+	accounts = model.User{UserName: "Duy", Password: "123"}
 )
 
 func checkUser(username, password string) bool {
