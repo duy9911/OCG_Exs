@@ -11,6 +11,46 @@ First i designed ERD
 
 Click my [dbdiagram](https://dbdiagram.io/d/61244f236dc2bb6073b80b93)  to see more clearly   
 
+
+## Structures 
+```
+├── docker-compose.yml
+├── document
+│   └── erd6.png
+├── exercise
+│   └── managerStore
+│       ├── controller
+│       │   ├── customerController.go
+│       │   ├── orderController.go
+│       │   ├── orderdetail.go
+│       │   └── productController.go
+│       ├── main.go
+│       ├── middleware
+│       │   ├── middlewareBasicAuth.go
+│       │   └── middlewareLogging.go
+│       └── model
+│           ├── customer.go
+│           ├── DBcontext.go
+│           ├── order.go
+│           ├── product.go
+│           └── user.go
+├── exercises
+│   └── data
+│       └── Untitled Diagram.drawio
+├── go.mod
+├── go.sum
+├── onClass
+│   └── studentApi
+│       ├── main.go
+│       └── rest
+│           ├── create.go
+│           ├── delete.go
+│           ├── show.go
+│           └── update.go
+├── README.md
+└── service
+```
+
 ## Features
 * Basic Login
 * CRUD APIs
