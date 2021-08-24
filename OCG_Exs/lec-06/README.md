@@ -5,8 +5,6 @@ In this lecture, I learned the following:
 > For more clealy, I build my own project to manage Products, Orders.
 Please let me know if you are not clear on somewhere.
 ## Database design 
-![Image of ERD]
-(/home/duy/Downloads/erd6.png)
 ![Image of erd](https://drive.google.com/file/d/1ptGOt5LO6Fo5hebS4PcXUL5iZnHHGo6d/view)
 For more clearly redirect to : ![dbdiagram.io](https://dbdiagram.io/d/61244f236dc2bb6073b80b93)
 
