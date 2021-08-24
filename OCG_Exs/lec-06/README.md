@@ -5,10 +5,10 @@ In this lecture, I learned the following:
 > For more clealy, I build my own project to manage Products, Orders.
 Please let me know if you are not clear on somewhere.
 ## Database design 
-![Image of ERD]
-(/home/duy/Downloads/erd6.png)
-![Image of erd](https://drive.google.com/file/d/1ptGOt5LO6Fo5hebS4PcXUL5iZnHHGo6d/view)
-For more clearly redirect to : ![dbdiagram.io](https://dbdiagram.io/d/61244f236dc2bb6073b80b93)
+
+![erd6](https://user-images.githubusercontent.com/44527223/130604872-018291af-c9f4-4afa-a733-4fd9ae46c5e7.png)
+
+Click my [dbdiagram](https://dbdiagram.io/d/61244f236dc2bb6073b80b93)  to see more clearly   
 
 ## Features
 * Basic Login
@@ -24,28 +24,28 @@ For more clearly redirect to : ![dbdiagram.io](https://dbdiagram.io/d/61244f236d
   * Enter: Duy for User, 123 for Password 
 
 * C>R>U>D 
-Customer
+  * Customer
 ```t
     /api/customers > > > Methods(POST)
 	/api/customersMethods(GET)
 	/api/customers/{id} > > > Methods(PUT)
 	/api/customers/{id}> > > Methods(DELETE)
 ```
-Product
+  * Product
 ```t
 	/api/productsMethods(POST)
 	/api/productsMethods(GET)
 	/api/products/{id}> > > Methods(PUT)
 	/api/products/{id}> > > Methods(DELETE)
 ```
-Order
+  * Order
 ```t
 	/api/ordersMethods(POST)
 	/api/ordersMethods(GET)
 	/api/orders/{id}> > > Methods(PUT)
 	/api/orders/{id}> > > Methods(DELETE)
 ```
-Orderdetail
+  * Orderdetail
 ```t
 	/api/orderdetailsMethods(POST)
 	/api/orderdetailsMethods(GET)
