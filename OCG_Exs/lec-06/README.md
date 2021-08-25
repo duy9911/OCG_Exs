@@ -66,7 +66,7 @@ Click my [dbdiagram](https://dbdiagram.io/d/61244f236dc2bb6073b80b93)  to see mo
 ### C>R>U>D 
 * Customer
 ```t
-    /api/customers            Methods(POST)
+    /api/customers        Methods(POST)
 	/api/customers        Methods(GET)
 	/api/customers/{id}   Methods(PUT)
 	/api/customers/{id}   Methods(DELETE)
@@ -90,7 +90,7 @@ Click my [dbdiagram](https://dbdiagram.io/d/61244f236dc2bb6073b80b93)  to see mo
 	/api/orderdetails       Methods(POST)
 	/api/orderdetails       Methods(GET)
 	/api/orderdetails/{id}  Methods(PUT)
-	"/api/orderdetails/{id} Methods("DELETE")
+	/api/orderdetails/{id} Methods("DELETE")
 ```
 
 
