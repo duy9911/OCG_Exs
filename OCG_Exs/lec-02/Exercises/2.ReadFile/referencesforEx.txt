@@ -1,0 +1,8 @@
+strings.Fields() Function convert string data ti string []array 
+=>https://www.geeksforgeeks.org/strings-fields-function-in-golang-with-examples/
+
+range  two values are returned for each iteration. The first is the index, and the second is a copy of the element at that index.
+=>https://tour.golang.org/moretypes/16
+
+string to int package 
+=>https://pkg.go.dev/strconv
